@@ -1,0 +1,21 @@
+//import win.ui;
+
+while(true){
+	import winex;
+	import process ;
+	//查找指定的窗口
+	窗口句柄, ,线程ID,进程ID = winex.findExists( "<main.exe>",,,);
+					
+						
+	if(窗口句柄){
+		winex.close(窗口句柄)
+	}
+											
+	//关闭窗口
+													 
+	//窗口句柄=null
+															
+																process.kill( "cc1plus.exe" );
+	sleep(2000);														process.kill( "collect2.exe" );			
+	sleep(3000);													}					
+win.loopMessage(); 
